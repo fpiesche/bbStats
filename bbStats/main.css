@@ -1,0 +1,251 @@
+a {
+  color: #80ff80;
+  text-decoration: none;
+}
+
+body {
+  color: #a0d0a0;
+  font-family: sans-serif;
+  background: #ffffff;
+  background-image:url("images/wallpaper.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* page header/footer config */
+
+#header {
+  font-size: 24pt;
+  font-weight: bold;
+  text-align: right;
+  display: block;
+  top: 0;
+  right: 0;
+  background-image:url("images/headerBackground.png");
+  background-color: rgba(127,160,127,0.7);
+  background-position: top left;
+  padding: 0.75em;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+
+#funfact {
+  font-size: 14pt;
+  font-weight: bold;
+  text-align: right;
+  display: block;
+  background-image:url("images/headerBackground.png");
+  background-color: rgba(127,160,127,0.7);
+  background-position: top left;
+  padding: 0.2em;
+  padding-right: 2em;
+  margin-bottom: 2em;
+}
+
+#footer {
+  font-size: 10pt;
+  text-align: right;
+  display: block;
+  left: 0;
+  background-image:url("images/footerBackground.png");
+  background-color: rgba(32,64,32,0.7);
+  padding: 0.75em;
+  padding-left: 0;
+  height: 48px;
+}
+
+#headerFootnote {
+   font-size: 8pt;
+   margin-right: 1em;
+   margin-bottom: 0;
+}
+
+#header img {
+  padding-left: 1em;
+}
+
+#header headline {
+  position: absolute;
+  right: 1em;
+  margin-top: -20px;
+}
+
+#header return {
+  position: absolute;
+  left: 0.5em;  
+}
+
+/* widgets */
+
+#widget {
+  padding: 0.5em;
+  margin: 0.5em;
+  margin-top: 1em;
+  min-height: 512px;
+  font-size: 11pt;
+  background: rgba(0,0,0,0.5);
+  background-image: url("images/widgetBackground.png");
+  background-position: top;
+  background-repeat: repeat-x;
+}
+
+#widgettext {
+   display: block;
+}
+
+#widgetlabel {
+  font-size: 14pt;
+  font-weight: bold;
+  height: 24px;
+  margin-top: -24px;
+  margin-bottom: 16px;
+  color: #508050;
+  background-color: rgba(127,160,127,0.7);
+  background-image: url("images/widgetLabelBackground.png");
+  padding: 4px;
+  text-align: center;
+}
+
+#widget ul {
+  list-style-type: none;
+}
+
+#widget ul>li {
+  margin-bottom: 0;
+  padding-bottom: 4px;
+}
+
+#li-odd {
+  background-color: rgba(96,127,96,0.7);
+}
+
+#li-even {
+  background-color: rgba(160,192,160,0.7);
+}
+
+#sidebar {
+  width: 14em;
+  display: inline-block;
+}
+
+#sidebarleft {
+  display: inline-block;
+  max-width: 760px;
+}
+
+#sidebarright {
+  display: inline-block;
+  max-width: 760px;
+}
+
+#fullwidget {
+  max-width: 760px;
+  display: block;
+}
+
+
+/* table styles */
+
+#widget table {
+  width: 100%;
+}
+
+#tr-odd {
+  background-color: rgba(96,127,96,0.7);
+}
+
+#tr-even {
+  background-color: rgba(128,160,128,0.7);
+}
+
+td {
+  margin: 0px;
+  padding: 4px;
+}
+
+#td-number {
+  text-align: right;
+}
+
+/* specific styles */
+
+#playerlist li {
+  list-style: square inside url("images/player-tiny.png");
+  background-position: left center;
+  background-repeat: no-repeat;
+  margin-left: -2.7em;
+  margin-bottom: 0.3em;
+  vertical-align: center;  
+}
+
+#awardBadge {
+  color: #204020;
+  border-left: 2px rgba(255,255,255,0.6) solid;
+  border-top: 2px rgba(255,255,255,0.6) solid;
+  border-right: 2px rgba(0,0,0,0.6) solid;
+  border-bottom: 2px rgba(0,0,0,0.6)solid;
+  
+  height: 56px;
+  width: 224px;
+  background-color: rgba(229,186,73,0.7);
+  background-image: url("images/awards/badge-background.png");
+  text-align: justify;
+  padding: 4px;
+  margin: 4px;
+  float: left;  
+}
+
+#awardBadge img {
+  height: 48px;
+  width: 48px;
+  margin-right: 8px;
+  float: left;
+}
+
+#awardText {
+   font-size: 11pt;
+}
+
+#awardTitle {
+  font-weight: bold;
+}
+
+#awardBadgeLocked {
+  border-left: 2px rgba(255,255,255,0.6) solid;
+  border-top: 2px rgba(255,255,255,0.6) solid;
+  border-right: 2px rgba(0,0,0,0.6) solid;
+  border-bottom: 2px rgba(0,0,0,0.6)solid;
+  color: #80a080;
+  height: 56px;
+  width: 224px;
+  background-color: rgba(229,229,229,0.7);
+  background-image: url("images/awards/badge-background.png");
+  text-align: justify;
+  padding: 4px;
+  margin: 4px;
+  float: left;  
+}
+
+#awardBadgeLocked img {
+  height: 48px;
+  width: 48px;
+  margin-right: 8px;
+  float: left;
+}
+
+#allAwards {
+  width: 100%;
+}
+
+#awardBadgeFiller {
+  height: 48px;
+  width: 224px;
+  display: block;
+  text-align: justify;
+  padding: 8px;
+  margin: 6px;
+  float: left;  
+}
