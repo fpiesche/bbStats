@@ -1,4 +1,4 @@
-bbStats v2 - released DERP
+bbStats v2 - released 2012
 
 A stats webapp for the Bukkit Minecraft server mod, powered by the BigBrother plugin
 
